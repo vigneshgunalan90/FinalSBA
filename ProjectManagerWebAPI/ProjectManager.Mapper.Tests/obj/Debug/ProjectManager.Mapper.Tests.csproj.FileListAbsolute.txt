@@ -1,0 +1,4 @@
+C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\obj\Debug\ProjectManager.Mapper.Tests.csprojAssemblyReference.cache
+C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\obj\Debug\ProjectManager.Mapper.Tests.csproj.CoreCompileInputs.cache
+C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.Mapper.Tests\obj\Debug\ProjectManager.Mapper.Tests.csprojAssemblyReference.cache
+C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.Mapper.Tests\obj\Debug\ProjectManager.Mapper.Tests.csproj.CoreCompileInputs.cache
