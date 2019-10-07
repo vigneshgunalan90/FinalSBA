@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ProjectManagerModelStoreContainer" CdmEntityContainer="ProjectManagerEntities">
+  <EntityContainerMapping StorageEntityContainer="preprodModelStoreContainer" CdmEntityContainer="preprodEntities">
     <EntitySetMapping Name="ParentTasks">
-      <EntityTypeMapping TypeName="ProjectManagerModel.ParentTask">
+      <EntityTypeMapping TypeName="preprodModel.ParentTask">
         <MappingFragment StoreEntitySet="ParentTask">
           <ScalarProperty Name="Parent_ID" ColumnName="Parent_ID" />
           <ScalarProperty Name="ParentTaskName" ColumnName="ParentTaskName" />
@@ -10,7 +10,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Projects">
-      <EntityTypeMapping TypeName="ProjectManagerModel.Project">
+      <EntityTypeMapping TypeName="preprodModel.Project">
         <MappingFragment StoreEntitySet="Project">
           <ScalarProperty Name="Project_ID" ColumnName="Project_ID" />
           <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
@@ -21,7 +21,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Tasks">
-      <EntityTypeMapping TypeName="ProjectManagerModel.Task">
+      <EntityTypeMapping TypeName="preprodModel.Task">
         <MappingFragment StoreEntitySet="Task">
           <ScalarProperty Name="Task_ID" ColumnName="Task_ID" />
           <ScalarProperty Name="Parent_ID" ColumnName="Parent_ID" />
@@ -35,7 +35,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
-      <EntityTypeMapping TypeName="ProjectManagerModel.User">
+      <EntityTypeMapping TypeName="preprodModel.User">
         <MappingFragment StoreEntitySet="User">
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />

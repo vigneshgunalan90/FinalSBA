@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProjectManager.DataLayer</RootNamespace>
     <AssemblyName>ProjectManager.DataLayer</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -73,6 +73,7 @@
     <Compile Include="Project.cs">
       <DependentUpon>ProjectManagerEF.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManagerDataLayer.cs" />
     <Compile Include="ProjectManagerEF.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,7 +89,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProjectManagerEF.edmx</DependentUpon>
     </Compile>
-    <Compile Include="ProjectManagerDataLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task.cs">
       <DependentUpon>ProjectManagerEF.tt</DependentUpon>

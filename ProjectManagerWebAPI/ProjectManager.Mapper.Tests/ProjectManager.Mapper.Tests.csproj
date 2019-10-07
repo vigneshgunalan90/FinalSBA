@@ -67,6 +67,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ProjectManager.Mapper\ProjectManager.Mapper.csproj">
+      <Project>{910a5905-39ae-4331-ac0c-ec4d201dfa47}</Project>
+      <Name>ProjectManager.Mapper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProjectManager.Shared\ProjectManager.Shared.csproj">
       <Project>{FF19DECD-24DF-40FD-A409-24CFF895B896}</Project>
       <Name>ProjectManager.Shared</Name>

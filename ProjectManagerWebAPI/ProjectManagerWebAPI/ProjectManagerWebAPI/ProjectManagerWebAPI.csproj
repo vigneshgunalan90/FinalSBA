@@ -288,9 +288,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectManager.DataLayer\ProjectManager.DataLayer.csproj">
-      <Project>{267d3c93-7c69-476f-84c1-bb40b59bb4c3}</Project>
-      <Name>ProjectManager.DataLayer</Name>
+    <ProjectReference Include="..\..\ProjectManager.Mapper\ProjectManager.Mapper.csproj">
+      <Project>{910a5905-39ae-4331-ac0c-ec4d201dfa47}</Project>
+      <Name>ProjectManager.Mapper</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\ProjectManager.Shared\ProjectManager.Shared.csproj">
       <Project>{FF19DECD-24DF-40FD-A409-24CFF895B896}</Project>

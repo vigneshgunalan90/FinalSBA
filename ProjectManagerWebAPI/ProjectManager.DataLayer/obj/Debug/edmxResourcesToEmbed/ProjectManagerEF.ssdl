@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="ProjectManagerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="preprodModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ParentTask">
     <Key>
       <PropertyRef Name="Parent_ID" />
@@ -41,7 +41,7 @@
     <Property Name="Project_ID" Type="int" />
     <Property Name="Task_ID" Type="int" />
   </EntityType>
-  <Association Name="FK__Task__Parent_ID__19D553CC">
+  <Association Name="FK__Task__Parent_ID__0448000C">
     <End Role="ParentTask" Type="Self.ParentTask" Multiplicity="1" />
     <End Role="Task" Type="Self.Task" Multiplicity="*" />
     <ReferentialConstraint>
@@ -53,7 +53,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Task__Project_ID__1AC97805">
+  <Association Name="FK__Task__Project_ID__053C2445">
     <End Role="Project" Type="Self.Project" Multiplicity="1" />
     <End Role="Task" Type="Self.Task" Multiplicity="*" />
     <ReferentialConstraint>
@@ -65,16 +65,16 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="ProjectManagerModelStoreContainer">
+  <EntityContainer Name="preprodModelStoreContainer">
     <EntitySet Name="ParentTask" EntityType="Self.ParentTask" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Task" EntityType="Self.Task" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Task__Parent_ID__19D553CC" Association="Self.FK__Task__Parent_ID__19D553CC">
+    <AssociationSet Name="FK__Task__Parent_ID__0448000C" Association="Self.FK__Task__Parent_ID__0448000C">
       <End Role="ParentTask" EntitySet="ParentTask" />
       <End Role="Task" EntitySet="Task" />
     </AssociationSet>
-    <AssociationSet Name="FK__Task__Project_ID__1AC97805" Association="Self.FK__Task__Project_ID__1AC97805">
+    <AssociationSet Name="FK__Task__Project_ID__053C2445" Association="Self.FK__Task__Project_ID__053C2445">
       <End Role="Project" EntitySet="Project" />
       <End Role="Task" EntitySet="Task" />
     </AssociationSet>

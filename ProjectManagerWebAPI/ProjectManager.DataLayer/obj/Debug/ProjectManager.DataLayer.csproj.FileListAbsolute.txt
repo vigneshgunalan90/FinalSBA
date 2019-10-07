@@ -20,3 +20,15 @@ C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.DataLayer
 C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.csproj.CopyComplete
 C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.dll
 C:\334791\CTS\FSE\FSEFinals-master\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.pdb
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\ProjectManager.DataLayer.dll.config
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\ProjectManager.DataLayer.dll
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\ProjectManager.DataLayer.pdb
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.csprojAssemblyReference.cache
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.csproj.CoreCompileInputs.cache
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.csproj.CopyComplete
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.dll
+C:\334791\CTS\FSE\FinalSBA\FinalSBA\ProjectManagerWebAPI\ProjectManager.DataLayer\obj\Debug\ProjectManager.DataLayer.pdb

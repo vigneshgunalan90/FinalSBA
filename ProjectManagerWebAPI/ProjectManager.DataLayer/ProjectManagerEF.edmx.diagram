@@ -4,13 +4,13 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="582a213fca6f4f47bf8630081aa0a23a" Name="Diagram1">
-        <EntityTypeShape EntityType="ProjectManagerModel.ParentTask" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ProjectManagerModel.Project" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ProjectManagerModel.Task" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="ProjectManagerModel.User" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
-        <AssociationConnector Association="ProjectManagerModel.FK__Task__Parent_ID__19D553CC" ManuallyRouted="false" />
-        <AssociationConnector Association="ProjectManagerModel.FK__Task__Project_ID__1AC97805" ManuallyRouted="false" />
+      <Diagram DiagramId="6e3f4b0338d44a5bb5d50796da25f44c" Name="Diagram1">
+        <EntityTypeShape EntityType="preprodModel.ParentTask" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="preprodModel.Project" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="preprodModel.Task" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="preprodModel.User" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="preprodModel.FK__Task__Parent_ID__0448000C" ManuallyRouted="false" />
+        <AssociationConnector Association="preprodModel.FK__Task__Project_ID__053C2445" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
